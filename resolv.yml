@@ -1,7 +1,5 @@
     - name: "Role Invocation - default.resolv "
       hosts: "all"
-      roles:
-        - role: "default.resolv"
           resolv_nameservers:
             - "1.1.1.1"
             - "8.8.8.8"
