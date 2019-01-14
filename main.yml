@@ -1,4 +1,4 @@
 # roles/common/tasks/main.yml: master playbook for the common role
----
 - name: create /etc/resolv.conf to configure DNS resolution
+  hosts: all
   template: src=resolv.conf.j2 dest=/etc/resolv.conf
