@@ -1,0 +1,7 @@
+# group_vars/dal: Variables for servers in Dallas
+---
+# DNS servers to use
+nameserver_ips:
+  - 72.249.191.254
+  - 206.123.113.254
+  - 66.199.228.254

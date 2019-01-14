@@ -1,0 +1,5 @@
+# group_vars/akl: Variables for servers in Auckland
+---
+# DNS servers to use
+nameserver_ips:
+  - 103.16.180.254

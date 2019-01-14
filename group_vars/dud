@@ -1,0 +1,6 @@
+# group_vars/dud: Variables for servers in Dunedin
+---
+# DNS servers to use
+nameserver_ips:
+  - 202.36.170.2
+  - 202.36.170.5
